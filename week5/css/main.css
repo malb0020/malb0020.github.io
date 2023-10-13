@@ -98,3 +98,41 @@ nav ul a:active {
     box-shadow: 0 0 4px 2px black;
 }
 
+/*position selectors*/
+
+aside ul li:first-child {
+    font-weight: bold;
+}
+
+section ol li:last-child {
+    font-weight: bold;
+}
+
+/*styling the table*/
+
+table {
+    border-collapse: collapse;
+}
+
+/* nth child selector - even/odd */
+
+tbody tr:nth-child(even) {
+    /*hex color value with 6 characters */
+    background-color: #d5836c;
+}
+
+table th:nth-child(n)
+table td:nth-child(n) {
+    border: 1px solid #000;
+}
+
+/* using formula in nth-child selector*/
+
+table td:nth-child(2n+1){
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* Specificity */
+/* Formula: inline style, id, class, tag name */
+/*                0        0    0       0     */
+
