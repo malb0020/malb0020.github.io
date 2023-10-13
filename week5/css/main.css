@@ -1,0 +1,57 @@
+/*
+this is a css comment
+*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkslategray;
+}
+
+h1{
+    color: cadetblue;
+
+}
+
+p{
+    background-color: antiquewhite;
+}
+
+/*
+selecting multiple elents
+*/
+
+h1,h2,h3,h4 {
+    text-decoration: underline;
+
+}
+
+/*selecting child*/
+
+nav ul {
+    list-style: none;
+
+}
+
+nav ul a {
+    color: darkslategray;
+    text-decoration: none;
+}
+
+/* selecting element with id value*/
+#treatoftheweek {
+    background-color: cadetblue;
+}
+
+.blue-link {
+    background-color: darkslategray;
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.white-text {
+    color: antiquewhite;
+}
+
+.large-text {
+    font-size: 24px;
+
+}
