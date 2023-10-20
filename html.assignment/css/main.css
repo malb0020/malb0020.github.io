@@ -19,6 +19,34 @@ header,footer {
     list-style-type: square;
 }
 
-ul li :nth-child(odd) {
+ul.bullet li:nth-child(odd) {
     background-color: #FCA311;
+}
+
+.links {
+    list-style: none;
+}
+
+.index-link {
+    list-style-type: none;
+    text-decoration: none;
+    background-color: #FCA311;
+    
+    
+}
+
+.notes-link {
+    list-style-type: none;
+    text-decoration: none;
+    background-color: #FCA311;
+}
+
+a:hover {
+    background-color: #13213c;
+    color: antiquewhite;
+}
+
+a:focus {
+    background-color: #13213c;
+    color: antiquewhite;
 }
