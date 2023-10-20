@@ -4,6 +4,9 @@
 }
 
 header,footer {
-    background-color: #13213c;
+    background-color: #FCA311;
 }
 
+.site-title {
+    color: #13213c;
+}
