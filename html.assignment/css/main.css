@@ -15,6 +15,10 @@ header,footer {
     box-shadow: 0 0 2px 1px #000;
 }
 
-.ul {
-    list-style-type:square;
+.bullet {
+    list-style-type: square;
+}
+
+ul li :nth-child(odd) {
+    background-color: #FCA311;
 }
