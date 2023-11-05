@@ -1,0 +1,186 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+min-height: 100vh;
+}
+
+body{
+    background-color: #AAD4CF;
+    margin-left: 180px;
+    margin-right: 180px;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+.fullsize{
+    background-color: #D4E9E7;
+    height: 100%;
+    width: 926px;
+    
+}
+
+.overlap {
+    position: absolute;
+    top:0 ;
+    left: 0;
+    z-index: 2;
+}
+
+
+header{
+    position: relative;
+    height: 300px;
+}
+
+.headeroverlay {
+    position:absolute;
+    top: 64%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 1;
+}
+
+
+.sitetitle {
+    font-size: 48px;
+    transform: translate(80px, 40px);
+}
+
+.Life {
+    transform: translate(300px, 360px);
+    font-size: 36px;
+}
+
+.starfishmain
+{
+    transform: scale(0.5) translate(270px, 380px);
+
+}
+
+.navigation{
+   
+}
+
+.links {
+    list-style: none;
+    transform: scale(1) translate(0, 350px);
+    border-right: 1px;
+    border-right-color: black;
+    padding: 0;
+    text-align: center;
+}
+
+.links li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border-right: 1px solid #000;
+    position: relative;
+}
+
+.links li::after {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 50%;
+    background-color: #000;
+    margin: 8px 20px;
+    vertical-align: middle;
+}
+
+
+
+.links a {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+    font-size: 48px
+    
+}
+
+.info{
+
+}
+
+.Facts 
+{ background-color: #D4E9E7;
+    height: 100%;
+    width: 926px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0;
+    padding: 10px;
+    border: 0px;
+    transform: translate(280px);
+}
+.Contactmore
+{ background-color: #D4E9E7;
+    height: 100%;
+    width: 926px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0;
+    padding: 10px;
+    border: 0px;
+    transform: translate(280px);
+}
+
+.factlist 
+{
+    background-color: #D4E9E7;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    transform: translate(300px);
+    
+}
+
+.factlist::marker
+{
+    background-color: #D4E9E7;
+    
+}
+
+    input[type=button]{
+        background-color: #AAD4CF;
+        color: #AAD4CF;
+        border: none;
+        text-decoration: none;
+    }
+    input[type=text]{width: 900px;}
+    input[type=Email]{width: 900px;}
+    textarea{
+        width: 900px;
+        height: 150px;
+    }
+
+.formback 
+{
+    background-color: #D4E9E7;
+    height: 100%;
+    width: 926px;
+    transform: translate(280px);
+}
+
+footer {
+    height: 100px;
+    position: sticky;
+    transform: translate(-120px, 670px) ;
+    z-index: 2;
+    text-align: right;
+}
