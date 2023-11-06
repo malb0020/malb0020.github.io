@@ -78,13 +78,11 @@ header{
     
 }
 
-.navigation{
-   
-}
+
 
 .links {
     list-style: none;
-    transform: scale(1) translate(300px, 280px);
+    transform: scale(1) translate(250px, 270px);
     border-right: 1px;
     border-right-color: black;
     padding: 0;
@@ -96,8 +94,13 @@ header{
     display: inline-block;
     margin: 0;
     padding: 0;
-    border-right: 1px solid #000;
     position: relative;
+    padding-left: 100px;
+}
+
+.links li:nth-child(2) {
+    border-right: 1px solid #000;
+    border-left: 1px solid #000;
 }
 
 .links li::after {
@@ -112,13 +115,6 @@ header{
 
 
 
-.links a {
-    display: inline-block;
-    vertical-align: middle;
-    line-height: 1;
-    font-size: 48px
-    
-}
 
 .info{
     transform: translate(620px, -385px);
@@ -132,7 +128,6 @@ header{
 .Facts 
 { background-color: #D4E9E7;
     height: 100%;
-    width: 926px;
     align-items: left;
     justify-content: left;
     display: flex;
@@ -140,11 +135,11 @@ header{
     padding: 10px;
     border: 0px;
     transform: translate(280px, -350px);
+    max-width: 900px;
 }
 .Contactmore
 { background-color: #D4E9E7;
     height: 100%;
-    width: 926px;
     align-items: left;
     justify-content: left;
     display: flex;
@@ -152,6 +147,7 @@ header{
     padding: 10px;
     border: 0px;
     transform: translate(280px, -350px);
+    max-width: 900px;
 }
 
 .factlist 
@@ -161,13 +157,13 @@ header{
     padding:0;
     border: 0;
     transform: translate(300px,-350px);
-    
+    max-width: 900px;
 }
 
 .factlist::marker
 {
     background-color: #D4E9E7;
-    color: pink;
+    
 }
 
     input[type=button]{
@@ -191,10 +187,15 @@ header{
     transform: translate(280px, -350px);
 }
 
+.customform {
+    border: 1px solid black;
+    padding: 10px;
+}
+
 footer {
     height: 100px;
     position: sticky;
-    transform: translate(-120px, 670px) ;
+    transform: translate(-120px, 560px) ;
     z-index: 2;
     text-align: right;
 }
