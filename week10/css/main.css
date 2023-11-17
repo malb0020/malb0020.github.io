@@ -113,7 +113,7 @@ text-align: center
     text-decoration: none;
 }
 
-.nav-list a: :hover,
+.nav-list a:hover,
 .nav-list a:focus,
 .nav-list a.current {
     background-color: #00add8;
@@ -219,5 +219,13 @@ text-align: center
 
     .app .btn {
         float: right;
+    }
+}
+
+/***Media Querry 800px***/
+
+@media screen and (min-width:800px) {
+    .actions-list li {
+        max-width: 20%;
     }
 }
