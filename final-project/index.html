@@ -5,14 +5,21 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width", initial-scale="1.0">
         <title>Welcome to Three Star Media</title>
+        
 
         <!--Css linked, even if empty-->
         <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Smooch+Sans:wght@100;200;300;500&family=Vina+Sans&display=swap');
+
+        </style>
     </head>
     <body>
         <header>
             <!--Main naviagtion and Header-->
-        <img src="images/logo.png" alt="three stars media logo">
+        <img class="logo" src="images/logo.png" alt="three stars media logo">
+        <div class="wrapper">
         <nav class="main-nav">
             <ul class="nav-list">
                 <li><a href="index.html" class="current">Home</a></li>
@@ -20,68 +27,94 @@
                 <li><a href="#">Services</a></li>
                 <li><a href="#">Team</a></li>
                 <li><a href="#">Contact</a></li>
-                <li><input type="text" placeholder="search"><input type="Submit"></li>
+                <li><a href="#search"><input type="text" id="search" placeholder="Search">
+                    <span class="material-symbols-outlined" style="font-size: 16px; color: #c78c06;">search
+                    </span></a></li>
+
             </ul>
         </nav>
-        <h1>Welcome to Three Star Media </h1>
+    </div>
         </header>
+        <main>
 
-            <!--Beginning of main body-->
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, facere minus doloribus officia eos deleniti alias architecto tempora vero reprehenderit officiis quo. Accusamus aliquid exercitationem dolore omnis. Quisquam, omnis odio?</p>
-           <!--Connect with us-->
-            <nav class="connect-with-us"><a href="#">Connect with us &blacktriangleright;</a></nav>
+            <section id="welcome">
+                <div class="welcometext">
+        <h1>Welcome to Three Star Media </h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, facere minus doloribus officia eos deleniti alias architecto tempora vero reprehenderit officiis quo. Accusamus aliquid exercitationem dolore omnis. Quisquam, omnis odio?</p>
+        <!--Connect with us-->
+        <button type="button">Connect with us<span class="material-symbols-outlined">
+            arrow_right</span></button>
             <img src="images/about-us.jpg" alt="Three Star Media Lobby">
+        </section>
 
+            <!--About us-->
+            <section id="aboutus">
             <h2>About Us</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quia facere aliquam unde, culpa nulla vel commodi optio, eum assumenda error necessitatibus sit modi, repudiandae distinctio earum veritatis repellendus illo!</p>
 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum odio illum maiores, ullam voluptatum mollitia placeat dolore laudantium quo saepe error magnam, reprehenderit dicta sit earum quisquam assumenda iste. Facilis!</p>
-            
+        </section>
             
             <!--Our Services-->
+            <section id="ourservices">
             <h2>Our Services</h2>
             <img src="images/digital.jpg" alt="Three Star Media Employee working">
+        </section>
 
             <!--Digital Transformation-->
+           <section id="digitaltransformation">
             <h2>Digital Transformation</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi esse soluta quas mollitia repellendus in eius hic repudiandae ex incidunt at, provident, aut veniam quo autem. Expedita repellendus quam reiciendis.</p>
-            <nav class="digital-plans"><a href="#">Digital Plans &blacktriangleright;</a></nav>
-            
+            <button type="button">Digital Plans<span class="material-symbols-outlined">
+                arrow_right</span></button>
+            </section>
+
             <!--Marketing-->
+            <section id="marketing">
             <img src="images/marketing.jpg" alt="laptop at three stars media">
             <h2>Marketing</h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae animi, repellat tempore quia nam modi dolores possimus repudiandae sunt nihil consequatur esse dolorum reprehenderit ipsum quas veritatis alias expedita. Distinctio!</p>
-            <nav class="marketing"><a href="#">Marketing Plans &blacktriangleright;</a></nav>
-
+            <button type="button">Marketking Plans<span class="material-symbols-outlined">
+                arrow_right</span></button>
+            </section>
 
             <!--Video production-->
+            <section id="videoproduction">
             <img src="images/video.jpg" alt="phone with youtube logo">
             <h2>Video Production</h2>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque, voluptatem at architecto perferendis incidunt possimus exercitationem voluptatum odit, error, commodi officiis debitis dolor iste voluptates necessitatibus nesciunt nihil hic ullam.</p>
-            <nav class="video-plans"><a href="#">Video Plans &blacktriangleright;</a></nav>
-
+            <button type="button">Video Plans<span class="material-symbols-outlined">
+                arrow_right</span></button>
+            </section>
 
             <!--Web Development-->
+            <section id="webdev">
             <img src="images/web.jpg" alt="phone on notebook and pen with instagram">
             <h2>Web Development</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum molestiae ipsam commodi quidem doloribus ratione corporis sequi cumque velit nisi, sit adipisci sunt at blanditiis. Adipisci atque eaque nemo molestias.</p>
-            <nav class="web-plans"><a href="#">Web Plans &blacktriangleright;</a></nav>
-
+            <button type="button">Web Plans<span class="material-symbols-outlined">
+                arrow_right</span></button>
+            </section>
 
             <!--Printing-->
+            <section id="print">
             <img src="images/print.jpg" alt="newspaper boxes on the side of the road">
             <h2>Print</h2>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia, saepe, excepturi voluptate exercitationem facilis, odio reiciendis corrupti possimus animi accusantium commodi porro praesentium ad sint ut. Necessitatibus autem nobis sit.</p>
-            <nav class="print-plans"><a href="#">Print Plans &blacktriangleright;</a></nav>
-
+            <button type="button">Print Plans<span class="material-symbols-outlined">
+                arrow_right</span></button>
+            </section>
 
             <!--Our vision-->
+            <section id="ourvision">
             <h2>Our Vision</h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi eius quo obcaecati laudantium! Cumque, eum aperiam ipsum veritatis vel consectetur ipsa assumenda eius explicabo rem magnam necessitatibus debitis, nulla adipisci?</p>
-            <nav class="learn-more"><a href="#">Learn More &blacktriangleright;</a></nav>
-
+            <button type="button">Learn More<span class="material-symbols-outlined">
+                arrow_right</span></button>
+            </section>
 
             <!--Our team-->
+            <section id="ourteam">
             <h2>Our Team</h2>
             <img src="images/john.jpg" alt="john doe">
             <h2>John Doe</h2>
@@ -91,20 +124,27 @@
             <h2>Bob Rite</h2>
             <h2>CFO and Co-owner</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere unde atque, omnis voluptas vel quia praesentium animi voluptatum consectetur mollitia itaque voluptate quae totam. Omnis, repellat. Fuga, ratione ut. Repellat.</p>
-            
+        </section>
+
             <!--Contact us-->
+            <section id="contactus">
             <h2>Contact Us</h2>
             <h2>Send us a message</h2>
+        
 
             <form>
                 <label for="fullname">Full Name</label><input type="text" id="fullname" name="fullname"><label for="email">Email</label><input type="email" id="email" name="email"><label for="message">Message</label><textarea name="message" rows="2" cols="30"></textarea>
             </form>
+        </section>
 
             <!--Hours of operation-->
+            <section id="hoursofoperation">
             <h2>Hours of operation</h2>
             <h2>Days</h2>
             <h2>Location</h2>
+        </section>
     </body>
+</main>
     <footer>
         <!--Copyright info-->
         &copy; Copyright Three Star Media, 2020
