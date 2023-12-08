@@ -1,3 +1,167 @@
+
+/*All Mobile Styling goes HERE*/
+/*Colours values used in the layout #c78c06, #ffe6ac, #222 and white*/
+
+
+
+
+/*main navigation*/
+
+.rectangle {
+    max-width: 1200px;
+    z-index: 0;
+    position: relative;
+    width: 1200px;
+    height: 200px;
+    color: #c78c06;
+    background-color: #c78c06;
+    
+}
+
+.logo {
+    z-index: 1;
+    position: relative;
+    transform: translateY(-200px);
+}
+
+header {
+    max-width: 1200px;
+    background-color: #222;
+    color: #fff; /* Set text color to white for better visibility */
+    padding: 10px; /* Add padding to give some space around the content */
+    max-height: 540px;
+}
+
+/* Add style for the navigation links */
+.nav-list li {
+    position: relative;
+    z-index: 2;
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+    transform: translateY(-180px);
+}
+
+
+
+.current {
+    
+    position: relative;
+    z-index: 3;
+    color:#222;
+    
+}
+
+li a {
+    
+    color: #c78c06;
+    text-decoration: none;
+}
+
+/* Style the search input */
+#search {
+    height: 40px;
+    width: 1100px;
+}
+
+.material-symbol-outlined {
+    border-style: solid;
+    border-color: #c78c06;
+    border-width: 1px;
+}
+
+/*connect with us*/
+
+
+
+
+
+
+/*about us*/
+
+
+
+
+
+
+
+/*our services*/
+
+
+
+
+
+
+
+/*digital transformation*/
+
+
+
+
+
+
+
+
+
+
+/*marketing*/
+
+
+
+
+
+
+
+/*video production*/
+
+
+
+
+
+
+
+/*web dev*/
+
+
+
+
+
+
+
+
+/*printing*/
+
+
+
+
+
+
+
+
+
+/*contact us*/
+
+
+
+
+
+
+
+/*hours of operartion*/
+
+
+
+
+
+
+
+/*copyright info*/
+
+
+
+
+/*All Desktop Styling goes HERE*/
+
 /*main navigation*/
 
 
@@ -90,10 +254,3 @@
 
 
 /*copyright info*/
-
-
-
-
-
-
-

@@ -8,7 +8,7 @@
         
 
         <!--Css linked-->
-        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Smooch+Sans:wght@100;200;300;500&family=Vina+Sans&display=swap');
@@ -18,17 +18,20 @@
     <body>
         <header>
             <!--Main naviagtion and Header-->
-        <img class="logo" src="images/logo.png" alt="three stars media logo">
+        <div class="logowrap">
+            <div class="rectangle"></div>
+            <img class="logo" src="images/logo.png" alt="three stars media logo">
+        </div>
         <div class="wrapper">
         <nav class="main-nav">
             <ul class="nav-list">
-                <li><a href="index.html" class="current">Home</a></li>
+                <li class="firstnav"><a href="index.html" class="current">Home</a></li>
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">Services</a></li>
                 <li><a href="#">Team</a></li>
                 <li><a href="#">Contact</a></li>
                 <li><a href="#search"><input type="text" id="search" placeholder="Search">
-                    <span class="material-symbols-outlined" style="font-size: 16px; color: #c78c06;">search
+                    <span class="material-symbols-outlined" style="font-size: 36px; color: #c78c06;">search
                     </span></a></li>
 
             </ul>
