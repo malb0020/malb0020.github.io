@@ -27,8 +27,8 @@
 header {
     max-width: 1200px;
     background-color: #222;
-    color: #fff; /* Set text color to white for better visibility */
-    padding: 10px; /* Add padding to give some space around the content */
+    color: #fff; 
+    padding: 10px; 
     max-height: 540px;
 }
 
@@ -42,18 +42,17 @@ header {
     transform: translateY(-180px);
 }
 
-
-
 .current {
     
     position: relative;
     z-index: 3;
-    color:#222;
+    color:hsl(0, 0%, 13%);
     
 }
 
 li a {
-    
+    font-family: sans-serif;
+    font-size: 20px;
     color: #c78c06;
     text-decoration: none;
 }
@@ -62,30 +61,82 @@ li a {
 #search {
     height: 40px;
     width: 1100px;
+    transform: translateY(-10px);
+    
 }
 
-.material-symbol-outlined {
+#search .material-symbol-outlined {
     border-style: solid;
     border-color: #c78c06;
     border-width: 1px;
 }
 
 /*connect with us*/
+.main-banner {
+    max-width: 1200px;
+    position: relative;
+    z-index: -1;
+}
 
+.welcometext {
+    max-width: 1200px;
+    position: absolute;
+    transform: translateY(-800px);
+    background: rgba(0, 0, 13, 0.8);
+    color: white;
+    font-family: sans-serif;
+    height: 580px;
+}
 
+h1 {
+    font-size: 100px;
+    max-width: 1200px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+}
+
+.ConnectButton {
+    background-color: #c78c06;
+    border-width: 0;
+    font-size: 24px;
+    width: 260px;
+    height: 100px;
+    transform: translateX(20px);
+}
 
 
 
 
 /*about us*/
 
+#aboutus {
+    background-color: #ffe6ac;
+    padding: 20px;
+    max-width: 1200px;
+}
 
+h2 {
+    font-size: 48px;
+    font-family: sans-serif;
+}
 
+p {
+    font-family: sans-serif;
+    
+}
 
+.AU {
+    max-width: 1200px;
+    width: 1160px;
+}
 
 
 
 /*our services*/
+#ourservices {
+    position: relative;
+
+}
 
 
 
@@ -94,49 +145,184 @@ li a {
 
 
 /*digital transformation*/
+#digitaltransformation {
+    background-color: #ffe6ac;
+    padding: 10px;
+}
 
+.digi {
+    max-width: 1200px;
+    min-width: 1200px;
+}
 
-
-
-
+     .Digiplan   {
+    background-color: #222;
+    color: white;
+    border-width: 0;
+    font-size: 24px;
+    width: 260px;
+    height: 100px;
+    transform: translateX(20px);
+}
 
 
 
 
 
 /*marketing*/
+#marketing {
+    background-color: #ffe6ac;
+    padding: 10px;
+}
 
+.mark {
+    max-width: 1200px;
+    min-width: 1200px;
+}
 
+.markplan {
+    background-color: #222;
+    color: white;
+    border-width: 0;
+    font-size: 24px;
+    width: 260px;
+    height: 100px;
+    transform: translateX(20px);
+}
 
 
 
 
 
 /*video production*/
+#videoproduction {
+    background-color: #ffe6ac;
+}
 
+.vidprod {
+    max-width: 1200px;
+    min-width: 1200px;
+}
 
-
-
+.vidplan {
+    background-color: #222;
+    color: white;
+    border-width: 0;
+    font-size: 24px;
+    width: 260px;
+    height: 100px;
+    transform: translateX(20px);
+}
 
 
 
 /*web dev*/
+#webdev {
+    background-color: #ffe6ac;
+}
 
+.web {
+    max-width: 1200px;
+    min-width: 1200px; 
+}
 
-
+.webplan {
+    background-color: #222;
+    color: white;
+    border-width: 0;
+    font-size: 24px;
+    width: 260px;
+    height: 100px;
+    transform: translateX(20px);
+}
 
 
 
 
 
 /*printing*/
+#print {
+    background-color: #ffe6ac;
+}
+
+.paperbox {
+    max-width: 1200px;
+    min-width: 1200px; 
+}
+
+.printplan {
+    background-color: #222;
+    color: white;
+    border-width: 0;
+    font-size: 24px;
+    width: 260px;
+    height: 100px;
+    transform: translateX(20px);
+}
 
 
+/*Our vision*/
+
+#ourvision {
+    max-width: 1200px;
+}
+.vis {
+    max-width: 1200px;
+    min-width: 1200px;
+    max-height: 500px;
+    
+}
+
+.learning {
+    
+    background-color: #222;
+    color: white;
+    border-width: 2px;
+    border-color: #c78c06;
+    font-size: 24px;
+    width: 260px;
+    height: 100px;
+    transform: translateY(-150px);
+    margin-left: 20px;
+}
+
+.visiontext {
+color:white;
+padding: 10px;
+    transform: translateY(230px);
+}
+
+.visionlorem{
+    color: white;
+    padding: 10px;
+    transform: translateY(230px);
+}
 
 
+/*Our team*/
+
+    
 
 
+.john {
+    max-width: 1200px;
+    min-width: 1200px;
+}
 
+.JohnDoe {
+    background-color: #ffe6ac;
+
+}
+
+.bob {
+    max-width: 1200px;
+    min-width: 1200px;
+    
+}
+
+.BobRite {
+    background-color: #ffe6ac;
+}
 
 
 /*contact us*/
@@ -156,6 +342,16 @@ li a {
 
 
 /*copyright info*/
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -230,6 +426,23 @@ li a {
 /*printing*/
 
 
+
+
+
+
+
+
+/*Our vision*/
+
+
+
+
+
+
+
+
+
+/*Our team*/
 
 
 
