@@ -147,7 +147,7 @@ p {
 /*digital transformation*/
 #digitaltransformation {
     background-color: #ffe6ac;
-    padding: 10px;
+    max-width: 1200px;
 }
 
 .digi {
@@ -172,12 +172,14 @@ p {
 /*marketing*/
 #marketing {
     background-color: #ffe6ac;
-    padding: 10px;
+    margin-bottom: 10px;
+    max-width: 1200px;
 }
 
 .mark {
     max-width: 1200px;
     min-width: 1200px;
+
 }
 
 .markplan {
@@ -197,6 +199,7 @@ p {
 /*video production*/
 #videoproduction {
     background-color: #ffe6ac;
+    max-width: 1200px;
 }
 
 .vidprod {
@@ -219,6 +222,7 @@ p {
 /*web dev*/
 #webdev {
     background-color: #ffe6ac;
+    max-width: 1200px;
 }
 
 .web {
@@ -243,6 +247,7 @@ p {
 /*printing*/
 #print {
     background-color: #ffe6ac;
+    max-width: 1200px;
 }
 
 .paperbox {
@@ -311,6 +316,7 @@ padding: 10px;
 
 .JohnDoe {
     background-color: #ffe6ac;
+    max-width: 1200px;
 
 }
 
@@ -322,6 +328,7 @@ padding: 10px;
 
 .BobRite {
     background-color: #ffe6ac;
+    max-width: 1200px;
 }
 
 
