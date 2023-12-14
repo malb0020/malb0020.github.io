@@ -25,18 +25,34 @@
         <div class="wrapper">
         <nav class="main-nav">
             <ul class="nav-list">
-                <li class="firstnav"><a href="index.html" class="current">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Team</a></li>
-                <li><a href="#">Contact</a></li>
+                <!--Flex container for desktop style nav bar-->
+                <div class="flex-container"> 
+                <div class="itemlogo">
+                    <li class="firstnav"><a href="index.html" class="current">Home</a></li>
+                </div>
 
-                <li> 
+                <div class="itemaboutus">
+                    <li><a href="#">About Us</a></li>
+                </div>
+
+                <div class="itemservices">
+                    <a href="#">Services</a></li>
+                </div>
+
+                <div class="itemteam">
+                    <li><a href="#">Team</a></li>
+                </div>
+
+                <div class="itemcontact"><li><a href="#">Contact</a></li></div>
+
+
+                <div class="itemsearch"><li> 
                     <div class="father">
                     <div class="divbar"> <a href="#search"><input type="text" id="search" placeholder="Search"></div>
                     <div class="divicon"><span class="material-symbols-outlined" style="font-size: 36px; color: #c78c06;">search</span></a> </div>
                     </div></li>
 
+                </div>
             </ul>
         </nav>
     </div>
@@ -46,7 +62,7 @@
             <section id="welcome">
                 <img class="main-banner" src="images/main-banner.jpg" alt="Three Star Media Lobby">
                 <div class="welcometext">
-        <h1>Welcome to Three Star Media </h1>
+        <h1 class="WTthreeSN">Welcome to Three Star Media </h1>
         <p class="Wp">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, facere minus doloribus officia eos deleniti alias architecto tempora vero reprehenderit officiis quo. Accusamus aliquid exercitationem dolore omnis. Quisquam, omnis odio?</p>
         
         <!--Connect with us-->
@@ -72,26 +88,31 @@
             <h2>Our Services</h2>
             
         </section>
-
+<div class="Boxes">
             <!--Digital Transformation-->
+            <div class="boxdigi">
             <img class="digi" src="images/digital.jpg" alt="Three Star Media Employee working">
             <section id="digitaltransformation">
             <h2>Digital Transformation</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi esse soluta quas mollitia repellendus in eius hic repudiandae ex incidunt at, provident, aut veniam quo autem. Expedita repellendus quam reiciendis.</p>
+            <p class="digitext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi esse soluta quas mollitia repellendus in eius hic repudiandae ex incidunt at, provident, aut veniam quo autem. Expedita repellendus quam reiciendis.</p>
             <button class="Digiplan" type="button">Digital Plans<span class="material-symbols-outlined">
                 arrow_right</span></button>
             </section>
+        </div>
 
             <!--Marketing-->
+            <div class="boxmark">
             <img class="mark" src="images/marketing.jpg" alt="laptop at three stars media">
             <section id="marketing">
             <h2>Marketing</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae animi, repellat tempore quia nam modi dolores possimus repudiandae sunt nihil consequatur esse dolorum reprehenderit ipsum quas veritatis alias expedita. Distinctio!</p>
+            <p class="marktext">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae animi, repellat tempore quia nam modi dolores possimus repudiandae sunt nihil consequatur esse dolorum reprehenderit ipsum quas veritatis alias expedita. Distinctio!</p>
             <button class="markplan" type="button">Marketking Plans<span class="material-symbols-outlined">
                 arrow_right</span></button>
             </section>
+        </div>
 
             <!--Video production-->
+            <div class="boxvid">
             <img class="vidprod" src="images/video.jpg" alt="phone with youtube logo">
             <section id="videoproduction">
             <h2>Video Production</h2>
@@ -99,8 +120,10 @@
             <button class="vidplan" type="button">Video Plans<span class="material-symbols-outlined">
                 arrow_right</span></button>
             </section>
-
+        </div>
+        
             <!--Web Development-->
+            <div class="boxweb">
             <img class="web" src="images/web.jpg" alt="phone on notebook and pen with instagram">
             <section id="webdev">
             <h2>Web Development</h2>
@@ -108,8 +131,10 @@
             <button class="webplan" type="button">Web Plans<span class="material-symbols-outlined">
                 arrow_right</span></button>
             </section>
-
+        </div>
+        
             <!--Printing-->
+            <div class="boxprint">
             <img class="paperbox" src="images/print.jpg" alt="newspaper boxes on the side of the road">
             <section id="print">
             <h2>Print</h2>
@@ -117,8 +142,10 @@
             <button class="printplan" type="button">Print Plans<span class="material-symbols-outlined">
                 arrow_right</span></button>
             </section>
-
+        </div>
+    </div>
             <!--Our vision-->
+            <div class="boxvision">
             <section id="ourvision">
             <h2 class="visiontext">Our Vision</h2>
             <p class="visionlorem">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi eius quo obcaecati laudantium! Cumque, eum aperiam ipsum veritatis vel consectetur ipsa assumenda eius explicabo rem magnam necessitatibus debitis, nulla adipisci?</p>
@@ -126,10 +153,14 @@
             <button class="learning" type="button">Learn More<span class="material-symbols-outlined">
                 arrow_right</span></button>
             </section>
+        </div>
 
             <!--Our team-->
+            <div class="boxteam">
             <section id="ourteam">
-            <h2>Our Team</h2>
+            <h2 class="teamtitle">Our Team</h2>
+
+            <div class="boxdoe">
             <img class="john" src="images/john.jpg" alt="john doe">
         <div class="JohnDoe">
             <h2>John Doe</h2>
@@ -137,6 +168,9 @@
             <hr class="solid">
             <p class="Story">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ipsum dolorum pariatur iusto quas provident ipsam inventore cum excepturi harum, nihil laborum tenetur voluptatum ratione. Veniam tempore sed reprehenderit recusandae!</p>
         </div>
+    </div>
+
+        <div class="boxrite">
             <img class="bob" src="images/bob.jpg" alt="bob rite">
         <div class="BobRite"> 
             <h2>Bob Rite</h2>
@@ -144,9 +178,11 @@
             <hr class="solid">
             <p class="Story">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere unde atque, omnis voluptas vel quia praesentium animi voluptatum consectetur mollitia itaque voluptate quae totam. Omnis, repellat. Fuga, ratione ut. Repellat.</p>
         </div>
+    </div>
         </section>
 
             <!--Contact us-->
+            <div class="informationsection">
             <section id="contactus">
             <h2>Contact Us</h2>
             <h2>Send us a message</h2>
@@ -155,11 +191,11 @@
             <div class="parent">
                 <form>
               <div class="div1"><strong> Full Name</strong></div>
-              <div class="div2"> <input type="text" id="fullname" name="fullname" size="156"></div>
+              <div class="div2"> <input type="text" id="fullname" name="fullname" size="75"></div>
               <div class="div3"><strong> Email</strong></div>
-              <div class="div4"> <input type="email" id="email" name="email" size="156"></div>
+              <div class="div4"> <input type="email" id="email" name="email" size="75"></div>
               <div class="div5"><strong> Message</strong></div>
-              <div class="div6"> <textarea name="message" rows="8" cols="151"></textarea></div>
+              <div class="div6"> <textarea name="message" rows="8" cols="74"></textarea></div>
               <div class="div7"> <button class="send" type="button">Send</button></div>
                 </form>
               </div>
@@ -189,13 +225,14 @@
         <!--Location and map-->
         <section class="location">
         <h2>Location</h2>
-        <iframe class="googlemaps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5608.071470457849!2d-75.76611792229006!3d45.348090899999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0713a10cfe09%3A0xc2c243a18ef99409!2sAlgonquin%20College%20(ITS)!5e0!3m2!1sen!2sca!4v1702329165837!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe class="googlemaps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5608.071470457849!2d-75.76611792229006!3d45.348090899999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0713a10cfe09%3A0xc2c243a18ef99409!2sAlgonquin%20College%20(ITS)!5e0!3m2!1sen!2sca!4v1702329165837!5m2!1sen!2sca" width="600" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section>
 
+    
 
 
 
-
+</div>
     </body>
 </main>
     <footer>
