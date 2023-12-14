@@ -153,6 +153,9 @@ p {
 .digi {
     max-width: 1200px;
     min-width: 1200px;
+    padding: 0;
+    margin: 0;
+    border: 0;
 }
 
      .Digiplan   {
@@ -253,6 +256,7 @@ p {
 .paperbox {
     max-width: 1200px;
     min-width: 1200px; 
+    padding-top: 30px;
 }
 
 .printplan {
@@ -312,9 +316,11 @@ padding: 10px;
 .john {
     max-width: 1200px;
     min-width: 1200px;
+    
 }
 
 .JohnDoe {
+   
     background-color: #ffe6ac;
     max-width: 1200px;
 
@@ -342,6 +348,17 @@ padding: 10px;
 
 /*hours of operartion*/
 
+
+
+
+
+
+
+/*location*/
+.googlemaps {
+    max-width: 1200px;
+    width: 1200px;
+}
 
 
 
