@@ -147,8 +147,17 @@
             <h2>Send us a message</h2>
         
 
-            <form>
-                <label for="fullname">Full Name</label><input type="text" id="fullname" name="fullname"><label for="email">Email</label><input type="email" id="email" name="email"><label for="message">Message</label><textarea name="message" rows="2" cols="30"></textarea>
+            <form class="form">
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" name="fullname">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+
+                <label for="message">Message</label>
+                <textarea name="message" rows="8" cols="30"></textarea>
+
+                <input type="submit" value="Send">
             </form>
         </section>
 
@@ -156,13 +165,14 @@
             <section id="hoursofoperation">
             <h2>Hours of operation</h2>
             
-            <table>
-                <thead>
-                    <tr>
-                        <th colspan="2">Days</th>
-                        <th rowspan="3">Hours</th>
-                    </tr>
-                </thead>
+            <div class="grid-container">
+                <div class="grid-item1">Days</div>
+                <div class="grid-item2">Hours</div>
+                <div class="grid-item3">Monday-Friday</div>
+                <div class="grid-item4">Saturday-Sunday</div>
+                <div class="grid-item5">9 AM - 6 PM</div>
+                <div class="grid-item6">Closed</div>
+              </div>
 
 
 
@@ -183,7 +193,9 @@
 </main>
     <footer>
         <!--Copyright info-->
+        <div class="foot">
         &copy; Copyright Three Star Media, 2020
         All images are taken from <nav class="unsplash"><a href="#">Unsplash</a></nav>
+    </div>
     </footer>
 </html>
