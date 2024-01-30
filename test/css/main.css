@@ -1,0 +1,79 @@
+main.css
+body {
+  font-family: 'Roboto', Helvetica, sans-serif;
+  background-color: #f0f0f0; /* Light gray background */
+  margin: 0;
+  padding: 0;
+  color: #333; /* Dark text color */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Stick No Bills', 'Roboto', Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+img {
+  width: 100%;
+}
+
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  background-color: #333; /* Dark background for navigation */
+}
+
+.main-nav ul li {
+  flex: 1;
+  text-align: center;
+}
+
+.main-nav ul li a {
+  display: block;
+  color: #fff; /* White text color */
+  text-decoration: none;
+  font-size: 1.25rem;
+  padding: 1rem;
+}
+
+form input,
+form textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: .5rem 1rem;
+}
+
+form textarea {
+  min-height: 150px;
+  max-height: 150px;
+  height: 150px;
+  resize: none;
+}
+
+form button {
+  background-color: #333; /* Dark background for the button */
+  color: #fff; /* White text color for the button */
+  border: none;
+  padding: 1rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #555; /* Darker background on hover */
+}
+
+.site-footer {
+  padding: 2rem 0;
+  background-color: #333; /* Dark background for the footer */
+  color: #fff; /* White text color for the footer */
+  text-align: center;
+}
